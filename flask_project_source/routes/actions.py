@@ -3,17 +3,17 @@ from tensorflow.keras.models import load_model
 import numpy as np
 import os
 
-pathModeloSumar = os.path.join(os.getcwd(), 'src/model', 'model_sumar.h5')
+pathModeloSumar = os.path.join(os.getcwd(), 'model', 'model_sumar.h5')
 model_sumar = load_model(pathModeloSumar)
 
-pathModeloRestar = os.path.join(os.getcwd(), 'src/model', 'model_restar.h5')
+pathModeloRestar = os.path.join(os.getcwd(), 'model', 'model_restar.h5')
 model_restar = load_model(pathModeloRestar)
 
 pathModeloMultiplicar = os.path.join(
-    os.getcwd(), 'src/model', 'model_multiplicar.h5')
+    os.getcwd(), 'model', 'model_multiplicar.h5')
 model_multiplicar = load_model(pathModeloMultiplicar)
 
-pathModeloDividir = os.path.join(os.getcwd(), 'src/model', 'model_dividir.h5')
+pathModeloDividir = os.path.join(os.getcwd(), 'model', 'model_dividir.h5')
 model_dividir = load_model(pathModeloDividir)
 
 
